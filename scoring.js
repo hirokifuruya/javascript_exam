@@ -14,7 +14,7 @@ $(document).ready(function () {
       $("#sum_indicate").text(sum);
 
       let average = sum / subject_points.length;
-      $("#average_indicate").text(sum);
+      $("#average_indicate").text(average);
       };
     function get_achievement() {
       let averageIndicate = $("#average_indicate").text();
